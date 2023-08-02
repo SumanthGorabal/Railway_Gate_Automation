@@ -1,0 +1,30 @@
+INTRODUCTION:
+Railway Gate is very essential for security purposes. If there is any defect in the system it will damage one or more lives. Every year thousands of accidents occur on railway crossings and thousands of people are dying. Here we are making a circuit by which the Gate will be operated by itself. This project will make the system more reliable and precis.
+
+
+ABSTRACT:
+At a railway level crossing, the current work tries to automate the gates' opening and shutting.
+Level crossing gates are typically manually operated by a gatekeeper. The gatekeeper receives notification from an of the train's arrival. Station close by. 
+The station in-charge notifies the closest gatekeeper to prepare when the train is about to depart from the station. By automating the process, this human involvement may be avoided. 
+When a train is running late for any reason, the gates stay locked for an extended period of time, generating a heavy traffic jam next to the gates. 
+Automation has the power to stop this as well. The suggested system employs Arduino and infrared sensors to track train arrival and departure at the railway level crossing.
+
+
+EXPERIMENTAL RESULTS:
+01. Gate operation: 
+An IR sensor is placed at a distance of 30cm and another at 5 cm from the level cross. The toy train passes the 1st sensor and when it is detected by the sensor, the LCD displays the “ARRAIVAL OF THE TRAIN”. 
+When the second sensor placed at a distance of 20cm from the level cross detects the train, the buzzer is activated and the motor is completely closed, then the LCD displays “DEPARTURE OF THE TRAIN” . 
+The buzzer rings until the gate is placed at a distance of 20cm after the level cross detects the departure of the train and the motor is reactivated to open the gate.
+02. Obstacle detection: 
+Any obstacle on the track is detected by placing an RF module on the train and the presence of obstacle on the track is noticed by a signal at the control room. 
+The train movement is then controlled based on the presence of the obstacle on the track.
+
+CONCLUSION:
+Automatic railway gate control system is centered on the idea of reducing human involvement for closing and opening the railway gate which allows and prevents cars and humans from crossing railway tracks. 
+The railway gate is a cause of many deaths and accidents. Hence, automating the gate can bring about a ring of surety to control the gates. Humans may make errors or mistakes so automating this process will reduce the chances of gate failures. 
+Automation of the closing and opening of the railway gate using the switch circuit reduces the accidents to a greater extent. The obstacle detection system implemented reduces the accidents which are usually caused when the railway line passes through the forest. Most of the time greater loss has been caused when animals cross the tracks. 
+The limitation of this project is the use of IR sensors. Hence, any obstacle in the way of the sensor will be detected. 
+Another important limitation is that this project does indeed close and open the gate but it cannot control the crossing of cars and vehicles. It only controls the gate. 
+To combat this problem pressure sensors can be used as extension to the present work. We are using IR sensors but it is better to use load sensors.
+As a future scope of work, our system can be implemented in real time by reducing the current limitations using new technologies.
+
